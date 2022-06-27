@@ -1,0 +1,8 @@
+Conclusiones
+Al realizar la compra se puede observar una falta de validaciones
+    -Se ingresan numeros en el nombre y viseversa 
+    -Sin validacion de espacios en blanco en todos los campos
+    -Sin validacion de fechas
+En el carrito de compras se hace dificil la apreciacion de los productos debido a que no se agrupan por productos.
+Selenium permite verificar todo este tipo de validaciones sin embargo al ejecutar la compra esta se puede ir modificando con los datos que sean de nuestra preferencia.
+
