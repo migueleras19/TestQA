@@ -15,3 +15,13 @@ Cada proceso que se va desarrollando es captura con campaltas las las cuales se 
 * Ejecutar el comando "python ejercicio1.py" desde una terminal 
 
 **NOTA**: No modificar el formato de Datos.csv y tener mucho cuidado en el archivo csv NO debe de contebner líneas en blanco
+
+Ejercicio 2
+
+ #Se genera una collecction con 2 request
+ *POST https://api.demoblaze.com/signup
+ *POST https://api.demoblaze.com/login
+ 
+#Para levantar el proyecto se debe importar el archivo "ejercicio2.json" en la herramienta postman una vez realizada la importación:
+ 1.- cambiar el valor de las variables globales para iniciar las pruebas
+ 2.- en la collection click derecho y escoger "Run collection"
