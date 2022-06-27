@@ -1,0 +1,55 @@
+{
+	"id": "a82b9873-f1fd-4fe2-8874-0e9d5e8e32e2",
+	"name": "ejercicio2",
+	"timestamp": "2022-05-31T16:01:03.725Z",
+	"collection_id": "8052971-edd87b07-2123-4e8b-96ba-6d3b06c10030",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 1,
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "9985a4c9-9926-4a01-8874-46a5501a1f26",
+			"name": "Signup",
+			"url": "https://api.demoblaze.com/signup",
+			"time": 234,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Respuesta 200": true,
+				"Respuesta registro correcto": false
+			},
+			"testPassFailCounts": {
+				"Respuesta 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Respuesta registro correcto": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				234
+			],
+			"allTests": [
+				{
+					"Respuesta 200": true,
+					"Respuesta registro correcto": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 234,
+	"collection": {
+		"requests": [
+			{
+				"id": "9985a4c9-9926-4a01-8874-46a5501a1f26",
+				"method": "POST"
+			}
+		]
+	}
+}

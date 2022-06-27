@@ -117,9 +117,7 @@ class Testmiguel(unittest. TestCase):
                 comp = driver.find_element_by_css_selector("body > div.sweet-alert.showSweetAlert.visible > div.sa-button-container > div > button").click()
                 time.sleep(2)
 
-
-                          
-                
+      
 if __name__ == "__main__":
     unittest.main()
 

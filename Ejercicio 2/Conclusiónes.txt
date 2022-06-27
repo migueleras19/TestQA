@@ -1,0 +1,1 @@
+Se puede envidenciar que las API a cualquier prueba están respondiendo con status 200ok, también se evidencia que la respuesta en el body cuando esta es OK la envía vacía
