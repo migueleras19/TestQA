@@ -1,8 +1,8 @@
 Ejercicio 1
 
 # Funcionalidad
-La prueba realiza el logeo al sitio Web, seleccion de dos productos para su compra, llena los datos del formularo desde un csv.
-Cada proceso que se va desarrollando es captura con campaltas las las cuales se almacenan en la carpeta evidencias.
+Realiza el logeo al sitio Web, selecciona dos productos para su compra, llena los datos del formularo desde un csv.
+Cada proceso que se va desarrollando es capturado y almacenan en la carpeta evidencias.
 
 # Instalar
 - Python 2.7.18
