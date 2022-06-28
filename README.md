@@ -12,7 +12,7 @@ Cada proceso que se va desarrollando es capturado y almacenan en la carpeta evid
 - Instalar los modulos indicados por python con "pip install nombremodulo"
 
 # Ejecución
-* Ejecutar el comando "python ejercicio1.py" desde una terminal 
+* Ejecutar el comando "python ejercio1.py" desde una terminal 
 
 **NOTA**: No modificar el formato de Datos.csv y tener mucho cuidado en el archivo csv NO debe de contebner líneas en blanco
 
