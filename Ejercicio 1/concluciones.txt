@@ -6,3 +6,4 @@ Al realizar la compra se puede observar una falta de validaciones
 En el carrito de compras se hace dificil la apreciacion de los productos debido a que no se agrupan por productos.
 Selenium permite verificar todo este tipo de validaciones sin embargo al ejecutar la compra esta se puede ir modificando con los datos que sean de nuestra preferencia.
 
+Al momento de llenar los campos en el login el boton Enter no funsiona 
