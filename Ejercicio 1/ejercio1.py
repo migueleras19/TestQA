@@ -1,8 +1,10 @@
 from argparse import Action
+from cgi import print_directory
 from csv import reader
 from lib2to3.pgen2 import driver
 from multiprocessing.connection import wait
 from turtle import clear
+from unicodedata import name
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
@@ -78,11 +80,12 @@ class Testmiguel(unittest. TestCase):
                 accion = ActionChains(self.driver)
                 accion.key_down(Keys.TAB)
                 
-                nombre =  driver.find_element_by_id("name")
-                nombre.clear()
-                nombre.send_keys(fila['nombre'])
+                x = driver.find_element_by_id("name")
+                x.clear()
+                x.send_keys(fila['nombre'])
                 time.sleep(1)
 
+                print({'nombre'})
                 pais = driver.find_element_by_id("country")
                 pais.clear()
                 pais.send_keys(fila['pais'])
@@ -117,7 +120,7 @@ class Testmiguel(unittest. TestCase):
                 comp = driver.find_element_by_css_selector("body > div.sweet-alert.showSweetAlert.visible > div.sa-button-container > div > button").click()
                 time.sleep(2)
 
-      
+
 if __name__ == "__main__":
     unittest.main()
 
